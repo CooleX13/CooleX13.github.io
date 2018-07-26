@@ -1,0 +1,41 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+    background: url("laptop.png") no-repeat center;
+}
+
+.flex {
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: yellow;
+}
+
+hr {
+    width: 70px;
+    background-color: yellow;
+}
+
+.btn {
+    background-color: orangered;
+    border-color: red;
+}
+
+.btn:hover {
+    background-color: #00dba3;
+    color: blueviolet;
+}
+
+#mc_embed_signup {
+    margin-top: 10px;
+}
